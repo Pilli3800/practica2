@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #9ecefa;
+  height: 80px;
+  width: 100%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: grey;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #87119a;
+}
+
+.logo {
+  color: #87119a;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+  background-color: #034574;
+  transition: 0.5s;
+}
+
+.seccion {
+     margin: 10px 30px;
+}
+
+.seccion h2{
+    text-transform: uppercase;
+    color: #87119a;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.seccion img{
+    margin-right: 30px;
+}
+
+.seccion p{
+    margin: 10px 0;
+}
+
+.seccion-nosotros{
+    position: relative;
+    top: 10px;
+}
+
+.seccion-servicios{
+    position: relative;
+    top: 20px;
+}
+
+.contenedor-imagenes{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+
+.imagenes{
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.imagenes-portafolio{
+
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+.imagen-portafolio{
+  width: 300px;
+  height: 251px;
+}
+
+.imagen-imagen{
+  width: 410px;
+  height: 251px;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+.imagenes-contacto{
+  justify-content: center;
+  margin-left:-100px;
+}
+.imagen-contacto{
+  width: 892px;
+  height: 545px;
+}
+.seccion-contacto{
+  margin-bottom: 100px;
+}
+.informacion-contacto{
+  display: inline;
+  list-style-type: none;
+ 
+}
+.informacion-contacto-lista{
+  margin-bottom: 20px;
+}
+.informacion-contacto-resultado{
+  font-weight: lighter;
+}
+
+.footer {
+    background-color: #9ecefa;
+    height: 80px;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.footer div {
+    margin: 0 30px;
+}
+
+.footer strong {
+    color:#87119a;
+}
